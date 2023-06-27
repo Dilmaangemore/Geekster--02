@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+
+.header-left{
+    display: flex;
+   padding-left: 20px;
+   align-items: inherit;
+
+}
+.header-left>p{
+    padding-left: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    
+}
+header, a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(91, 89, 89);
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.header-right{
+    text-align: center;
+    align-items: baseline;
+}
+
+.power-your-dream{
+    /* width: 300px; */
+    top: 30%;
+    /* z-index: 1; */
+}
+.power-your-dream img{
+    z-index: -1;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+/* .power-your-dream::before{
+    z-index: -1;
+} */
+.dream-text{
+    position: absolute;
+    width: 500px;
+    text-decoration: none;
+    text-align: left;
+    top: 300px;
+    margin-left: 10%;
+    color: aliceblue;
+
+   
+    z-index: 1;
+}
+
+.container-fluid mt-5 {
+    background-color: darkgray;
+    padding: 10px;
+    text-align: center;
+    font-size: medium;
+}
+
+.container-fluid mt-5, p{
+    text-align: inherit;
+    font-size: small;
+    color: rgb(79, 76, 76);
+}
+.container-fluid mt-5, .row{
+background-color: rgb(228, 221, 221);
+}
